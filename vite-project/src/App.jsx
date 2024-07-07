@@ -1,4 +1,5 @@
 import './App.css'
+import '../src/stylesheets/header.css'
 import Body from './Components/Body'
 import Header from './Components/Header'
 import Section1 from './Components/Section1'
@@ -14,9 +15,14 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <Body />
-        <Section1 />
+        <div className='div-1'>
+          <Header />
+          <Body />
+        </div>
+        <div className='div-2'>
+          <Section1 />
+        </div>
+
         <Section2 />
         <Section3 />
         <Section4 />

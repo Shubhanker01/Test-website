@@ -1,12 +1,12 @@
 export default function Section1() {
     return (
         <>
-            <div>
-                <div>
+            <div className="section-1div">
+                <div className="div-2a">
                     <h2>OUR PHILOSOPHY</h2>
                     <p>We don't make deals, we make commitments</p>
                 </div>
-                <div>
+                <div className="div-2b">
                     <p>
                         The right entrepreneur can disrupt any industry. The most successful entrepreneurs start with intuition and continuously improve through data. That dedication is what sets them apart.
 
@@ -17,12 +17,13 @@ export default function Section1() {
                         We’re all in this together. Why? Because we share the same motivation.
                     </p>
                 </div>
-                <div>
-                    <p>2022-2024</p>
-                    <p>THOSE WHO MADE A CHANGE</p>
-                    <p>01-07</p>
-                </div>
             </div>
+            <div>
+                <p>2022-2024</p>
+                <p>THOSE WHO MADE A CHANGE</p>
+                <p>01-07</p>
+            </div>
+
         </>
     )
 }

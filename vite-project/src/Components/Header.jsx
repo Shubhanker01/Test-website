@@ -6,7 +6,7 @@ export default function Header() {
                 <div>
                     <h1 id="heading">WEBAIDE</h1>
                 </div>
-                <div>
+                <div className='header-links'>
                     <a href="#">TEAM</a>
                     <a href="#">COMMITMENTS</a>
                     <a href="#">STORIES</a>
