@@ -8,17 +8,22 @@ export default function Section1() {
                 </div>
                 <div className="div-2b">
                     <p>
-                        The right entrepreneur can disrupt any industry. The most successful entrepreneurs start with intuition and continuously improve through data. That dedication is what sets them apart.
-
+                        The right entrepreneur can disrupt any industry. The most successful entrepreneurs start with intuition and continuously improve through data. That dedication is what sets them apart.<br />
+                    </p>
+                    <p>
                         A strong leadership team is key to success. Bringing the right people along early has a long-term impact. Because great culture runs faster.
-
+                    </p>
+                    <br />
+                    <p>
                         You’re on a journey, leaving your mark on our world, likely to take a decade. And we will be there for you during the good times and the bad. We don’t have all the answers but we ask the right questions. We challenge you to think differently and keep pushing toward a bigger dent.
-
+                    </p>
+                    <br />
+                    <p>
                         We’re all in this together. Why? Because we share the same motivation.
                     </p>
                 </div>
             </div>
-            <div>
+            <div className="section-2div">
                 <p>2022-2024</p>
                 <p>THOSE WHO MADE A CHANGE</p>
                 <p>01-07</p>

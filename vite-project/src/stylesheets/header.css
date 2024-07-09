@@ -1,9 +1,10 @@
-.main-h{
+.main-h {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 35px;
 }
-#heading{
+
+#heading {
     font-size: 16px;
     text-align: left;
     color: #ffffff;
@@ -11,56 +12,213 @@
     letter-spacing: 3px;
     margin-left: 88px;
 }
-.header-links{
+
+.header-links {
     margin-top: 10px;
 }
-.header-links a{
+
+.header-links a {
     margin-left: 27px;
     color: #5c5858;
 }
-.header-links a:hover{
+
+.header-links a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
-.main-body{
+
+.main-body {
     margin-top: 220px;
     font-size: 70px;
     font-weight: bold;
     display: flex;
 }
-.main-body p{
+
+.main-body p {
     text-align: left;
     padding-right: 600px;
     line-height: 0.8;
     padding-left: 80px;
 }
-.main-body img{
+
+.main-body img {
     cursor: pointer;
     height: 15px;
     width: 15px;
     margin-top: 245px;
     margin-right: 45px;
 }
-.div-1{
+
+.div-1 {
     background-color: rgb(7, 27, 17);
     width: 100%;
     height: 100vh;
 }
-.div-2{
+
+.div-2 {
     background-color: antiquewhite;
     width: 100%;
     height: 100vh;
     color: black;
 }
-.section-1div{
+
+.section-1div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.div-2a {
+    margin-top: 100px;
+}
+
+.div-2a h2 {
+    font-size: 13px;
+    margin-top: 14px;
+    margin-right: 307px;
+}
+
+.div-2a p {
+    font-size: 55px;
+    padding-left: 120px;
+    padding-right: 319px;
+    padding-top: 20px;
+    line-height: 0.9;
+    text-align: left;
+}
+
+.div-2b p {
+    padding-right: 120px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.section-2div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+}
+
+.section-2div p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.section-compdiv {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    color: black;
+}
+
+.sec-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sec-2 div{
+    height: 250px;
+}
+.sec-2 img{
+    height: 70px;
+    padding-top: 50px;
+}
+.sec-2a {
+    border-left: 1px solid #5c5858;
+    border-top: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+    border-bottom: 1px solid #5c5858;
+}
+.sec-2b{
+    border-top: 1px solid #5c5858;
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2c{
+    border-top: 1px solid #5c5858;
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2d{
+    border-top: 1px solid #5c5858;
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2e{
+    border-left: 1px solid #5c5858;
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2f{
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2g{
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-2h{
+    border-bottom: 1px solid #5c5858;
+    border-right: 1px solid #5c5858;
+}
+.sec-3{
+    background-image: url('https://plus.unsplash.com/premium_photo-1677529496297-fd0174d65941?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    opacity: 0.5;
+    height: 130vh;
+    width: 100%;
+    color: azure;
+}
+.sec-3places{
+    position: relative;
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    top: -750px;
+}
+.sec-3places div{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sec-3team{
+    position:relative;
+    color: azure;
+    top: -650px;
+    z-index: 1;
+}
+.sec-3team h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 390px;
+    padding-right: 392px;
+    line-height: 0.9;
+}
+.sec-3team p{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 420px;
+    padding-right: 420px;
+    font-weight: 500;
+}
+#meet{
+    position: absolute;
+    top: 278px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px;
+    color: #5c5858;
+}
+.sec-4{
+    height: 100vh;
+    margin-top: -317px;
+    background-color: #ffffff;
+}
+.sec-4a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    color: black;
 }
-.div-2a h2{
-    font-size: 13px;
-}
-.div-2a p{
-    font-size: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
